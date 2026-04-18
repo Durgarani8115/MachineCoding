@@ -1,0 +1,73 @@
+/* .App{
+  text-align: center;
+}
+
+  .input-box{
+    width:50px;
+    height:50px;
+    margin:5px;
+    font-size:40px;
+    text-align: center;
+  }
+  // import React from 'react'
+// import { useState } from 'react'
+// import { useEffect } from 'react'
+// import { useRef } from 'react'
+
+// export default function App() {
+
+//     const inputOTP = 5;
+//   const [otp, setOtp] = useState(
+//     new Array(inputOTP).fill("")
+//   );
+
+//   const inputrefs = useRef([]);
+
+//   useEffect(()=>{
+//     inputrefs.current[0]?.focus();
+//   },[]);
+
+//   const handleChange = (element, index) => {
+//     const value = element.value;
+//     if(isNaN(value)) return;
+
+//     const newOtp = [...otp];
+//     newOtp[index] = value.slice(-1); // access last digit
+//     setOtp(newOtp);
+
+//     value && inputrefs.current[index + 1]?.focus();// focus nxt input
+//   }
+
+//   const hangleKeyDown = (e,index) =>{
+//     if(!e.target.value && e.key === "BackSpace"){
+//       inputrefs.current[index-1]?.focus();
+//       setOtp(prev => {       
+//          const newOtp = [...prev];
+//         newOtp[index-1] = "";
+//         return newOtp;
+//       })
+//     }
+//   }
+
+
+  
+//   return (
+//     <div className='App'>
+//       <h1 style={{ textAlign: 'center' }}>OTP Validate</h1>
+//       {otp.map((data,index) =>{
+//         return (
+//           <input type='text'
+//           className='input-box' 
+//           onChange={(e) => handleChange(index)}
+//           key={index}
+//           maxLength={1}
+//           value={otp[data]}
+//           />
+//         )
+//       })}
+
+        
+      
+//     </div>
+//   )
+// } */
