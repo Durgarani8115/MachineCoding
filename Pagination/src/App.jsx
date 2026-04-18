@@ -1,0 +1,15 @@
+// App.jsx
+
+import React from "react";
+import ProductList from "./components/ProductList";
+
+const App = () => {
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1>Pagination Machine Coding</h1>
+      <ProductList />
+    </div>
+  );
+};
+
+export default App;
