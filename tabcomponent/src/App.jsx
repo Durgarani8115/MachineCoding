@@ -1,9 +1,9 @@
-import TabsForm from "./component/TabsForm.jsx"
+import TabComponent from "./component/TabsForm"
 
 function App() {
   return (
     <div className="main-container">
-      <TabsForm />
+      <TabComponent />
     </div>
   )
 }
